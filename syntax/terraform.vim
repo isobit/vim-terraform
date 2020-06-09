@@ -332,6 +332,7 @@ syn keyword terraDataTypeBI
           \ aws_ebs_volume
           \ aws_ec2_transit_gateway
           \ aws_ec2_transit_gateway_dx_gateway_attachment
+          \ aws_ec2_transit_gateway_peering_attachment
           \ aws_ec2_transit_gateway_route_table
           \ aws_ec2_transit_gateway_vpc_attachment
           \ aws_ec2_transit_gateway_vpn_attachment
@@ -2289,6 +2290,8 @@ syn keyword terraResourceTypeBI
           \ aws_ec2_client_vpn_network_association
           \ aws_ec2_fleet
           \ aws_ec2_transit_gateway
+          \ aws_ec2_transit_gateway_peering_attachment
+          \ aws_ec2_transit_gateway_peering_attachment_accepter
           \ aws_ec2_transit_gateway_route
           \ aws_ec2_transit_gateway_route_table
           \ aws_ec2_transit_gateway_route_table_association
